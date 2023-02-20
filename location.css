@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image {
+  width: 100%;
+}
+.location-container {
+  width: 100%;
+}
+.container {
+  height: 493px;
+  width: 100%;
+  background-color: black;
+  padding: 16px;
+}
+
+.container2 {
+  padding: 0 32px;
+  height: 336px;
+  width: 100%;
+  background-color: #d5966c;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.gold-container {
+  background-color: #d5966c;
+  height: 72px;
+  width: 56px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-container {
+  background-color: black;
+  height: 72px;
+  width: 208px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-container a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-family: "Big Shoulders Display";
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  margin-top: 48px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addres {
+  color: #d5966c;
+  font-family: "Big Shoulders Display";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 32px;
+  margin-top: 48px;
+}
+
+.addres2 {
+  color: white;
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.info {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+}
+
+.mod-text {
+  margin-top: 48px;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 18px;
+}
+.info2 {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  filter: invert(100%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+@media (max-width: 768px) {
+  .image2 {
+    display: none;
+  }
+  .image3 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .image {
+    display: none;
+  }
+
+  .image2 {
+    width: 100%;
+  }
+
+  .container {
+    height: 436px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+    padding: 39px;
+    padding-top: 88px;
+  }
+
+  h1 {
+    height: 100px;
+    width: 223px;
+    margin: 0;
+  }
+
+  .addres {
+    margin-top: 0;
+  }
+  .info {
+    height: 112px;
+    width: 398px;
+  }
+
+  .container2 {
+    height: 216px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 56px;
+  }
+
+  .location-container {
+    left: 40px;
+  }
+
+  .icons {
+    height: 20px;
+    width: 20px;
+    margin-left: 83px;
+  }
+
+  .info2 {
+    height: 104px;
+    width: 281px;
+    margin-left: 50px;
+  }
+
+  .mod-text {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .image3 {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .image2 {
+    display: none;
+  }
+
+  .container {
+    height: 548px;
+    width: 1440px;
+    padding: 165px;
+    gap: 350px;
+  }
+
+  .info {
+    font-family: "Outfit";
+    height: 128px;
+    width: 440px;
+  }
+  .container2 {
+    height: 244px;
+    width: 1440px;
+  }
+
+  .mod-text {
+    height: 58px;
+    width: 159.57235717773438px;
+    margin-left: 165px;
+    font-size: 25px;
+  }
+
+  .info2 {
+    height: 84px;
+    width: 380px;
+  }
+  .icons {
+    margin-left: 300px;
+  }
+}
